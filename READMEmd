@@ -1,448 +1,69 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishna Kashyap - GitHub Profile Landing Page</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        darkBg: '#0d1117',
-                        cardBg: '#161b22',
-                        cardBorder: '#30363d',
-                        accentBlue: '#58a6ff',
-                        accentGreen: '#3fb950',
-                        accentPurple: '#bc8cff',
-                        accentOrange: '#f0883e'
-                    }
-                }
-            }
-        }
-    </script>
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-        }
-        .code-font {
-            font-family: 'JetBrains Mono', monospace;
-        }
-        .glow-effect:hover {
-            box-shadow: 0 0 25px rgba(88, 166, 255, 0.15);
-            border-color: #58a6ff;
-        }
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 8px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-track {
-            background: #0d1117;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #30363d;
-            border-radius: 4px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background: #8b949e;
-        }
-    </style>
-</head>
-<body class="min-h-screen flex flex-col justify-between selection:bg-accentBlue selection:text-black">
+<div align="center">
 
-    <!-- Top Navigation bar -->
-    <header class="sticky top-0 z-50 bg-[#161b22]/90 backdrop-blur-md border-b border-cardBorder">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-accentBlue to-accentPurple flex items-center justify-center text-white font-bold shadow-lg">
-                    KK
-                </div>
-                <span class="code-font font-semibold text-white tracking-tight">krishna-kashyap / <span class="text-accentBlue">README.md</span></span>
-            </div>
-            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-                <a href="#about" class="hover:text-accentBlue transition-colors">About</a>
-                <a href="#skills" class="hover:text-accentBlue transition-colors">Tech Stack</a>
-                <a href="#projects" class="hover:text-accentBlue transition-colors">Featured Research</a>
-                <a href="#stats" class="hover:text-accentBlue transition-colors">GitHub Stats</a>
-            </nav>
-            <div class="flex items-center space-x-3">
-                <a href="https://github.com/kashyap03042003" target="_blank" class="px-3 py-1.5 rounded-md bg-[#21262d] border border-cardBorder text-xs font-semibold hover:bg-[#30363d] transition-all flex items-center space-x-2 text-white">
-                    <i class="fa-brands fa-github text-sm"></i>
-                    <span>Follow</span>
-                </a>
-            </div>
-        </div>
-    </header>
+# Hi there, I'm Krishna Kashyap 👋
 
-    <!-- Main Content Container -->
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full space-y-12">
+### **Software Engineer & AI Researcher** 
+*MSCS @ Northeastern University | BS @ NIT Nagpur*
 
-        <!-- Hero / Profile Header Section -->
-        <section class="bg-cardBorder/40 rounded-2xl p-8 border border-cardBorder backdrop-blur-sm relative overflow-hidden shadow-xl">
-            <div class="absolute -right-20 -top-20 w-80 h-80 bg-accentBlue/10 rounded-full blur-3xl pointer-events-none"></div>
-            <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-accentPurple/10 rounded-full blur-3xl pointer-events-none"></div>
+<img src="https://komarev.com/ghprofile/kashyap03042003/?color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+<img src="https://img.shields.io/badge/Status-Actively_Building-3fb950?style=flat-square&logo=github" alt="Status" />
 
-            <div class="flex flex-col md:flex-row items-center md:items-start gap-8 relative z-10">
-                <div class="relative">
-                    <div class="w-36 h-36 rounded-2xl bg-gradient-to-br from-[#21262d] to-[#161b22] p-1.5 border-2 border-accentBlue/50 shadow-2xl overflow-hidden">
-                        <img src="https://placehold.co/200x200/161b22/58a6ff?text=KK" alt="Krishna Kashyap" class="w-full h-full object-cover rounded-xl">
-                    </div>
-                    <span class="absolute bottom-2 right-2 w-4 h-4 bg-accentGreen rounded-full border-2 border-cardBg" title="Online / Available"></span>
-                </div>
+</div>
 
-                <div class="flex-1 text-center md:text-left space-y-3">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
-                        <div>
-                            <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Krishna Kashyap</h1>
-                            <p class="text-accentBlue code-font text-sm font-medium mt-1">Software Engineer & AI Researcher</p>
-                        </div>
-                        <div class="flex flex-wrap justify-center md:justify-end gap-2 text-xs">
-                            <span class="px-3 py-1 rounded-full bg-accentBlue/10 text-accentBlue border border-accentBlue/20 font-medium flex items-center space-x-1.5">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <span>MSCS @ Northeastern</span>
-                            </span>
-                            <span class="px-3 py-1 rounded-full bg-accentPurple/10 text-accentPurple border border-accentPurple/20 font-medium flex items-center space-x-1.5">
-                                <i class="fa-solid fa-university"></i>
-                                <span>BS @ NIT Nagpur</span>
-                            </span>
-                        </div>
-                    </div>
+---
 
-                    <p class="text-gray-300 text-sm leading-relaxed max-w-3xl">
-                        Specializing in Agentic AI, Machine Learning Systems, Distributed Architectures, and MLOps. Passionate about building, containerizing, and scaling production-grade intelligent systems and high-performance research applications.
-                    </p>
+### 🚀 About Me
+I am currently pursuing a Master of Science in Computer Science at **Northeastern University** after completing undergraduate studies in Computer Science at **NIT Nagpur**. With a strong analytical and algorithmic foundation, I bring rigorous problem-solving skills to software engineering and machine learning. 
 
-                    <div class="pt-2 flex flex-wrap justify-center md:justify-start gap-4 text-sm text-gray-400">
-                        <div class="flex items-center space-x-2">
-                            <i class="fa-solid fa-location-dot text-accentOrange"></i>
-                            <span>Boston, MA</span>
-                        </div>
-                        <div class="flex items-center space-x-2">
-                            <i class="fa-solid fa-envelope text-accentBlue"></i>
-                            <span>kashyap.kr@northeastern.edu</span>
-                        </div>
-                        <div class="flex items-center space-x-2">
-                            <i class="fa-brands fa-github text-white"></i>
-                            <a href="https://github.com/kashyap03042003" target="_blank" class="hover:text-accentBlue transition-colors">github.com/kashyap03042003</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+My technical expertise spans distributed systems, backend engineering, MLOps pipelines, and advanced AI and ML domains—including Machine Learning, Deep Learning, Federated Learning, NLP, Generative AI, and agentic workflows. I specialize in building, containerizing, and scaling production systems using **Kubernetes, AWS, Docker, and MLOps infrastructure**.
 
-        <!-- About Me Section -->
-        <section id="about" class="bg-cardBg rounded-xl p-6 border border-cardBorder shadow-md">
-            <h2 class="text-xl font-bold text-white mb-4 flex items-center space-x-2">
-                <i class="fa-solid fa-user-astronaut text-accentBlue"></i>
-                <span>About Me</span>
-            </h2>
-            <div class="text-gray-300 text-sm leading-relaxed space-y-3">
-                <p>
-                    I am currently pursuing a Master of Science in Computer Science at <strong class="text-white">Northeastern University</strong>, following my undergraduate studies at <strong class="text-white">NIT Nagpur</strong>. With a strong analytical and algorithmic foundation, I bring rigorous problem solving skills to software engineering and machine learning.
-                </p>
-                <p>
-                    My technical expertise spans distributed systems, backend engineering, MLOps pipelines, and advanced AI and ML domains—including Machine Learning, Deep Learning, Federated Learning, NLP, Generative AI, and agentic workflows. I specialize in building, containerizing, and scaling production systems using <strong class="text-accentBlue">Kubernetes, AWS, Docker, and MLOps infrastructure</strong>.
-                </p>
-            </div>
-        </section>
+---
 
-        <!-- Tech Stack Badges Section -->
-        <section id="skills" class="bg-cardBg rounded-xl p-6 border border-cardBorder shadow-md">
-            <h2 class="text-xl font-bold text-white mb-4 flex items-center space-x-2">
-                <i class="fa-solid fa-code text-accentGreen"></i>
-                <span>Tech Stack & Core Competencies</span>
-            </h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                <!-- Python -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-brands fa-python text-2xl text-[#3776ab]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Python</div>
-                        <div class="text-[10px] text-gray-400">Primary Language</div>
-                    </div>
-                </div>
-                <!-- PyTorch -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-brain text-2xl text-[#ee4c2c]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">PyTorch</div>
-                        <div class="text-[10px] text-gray-400">Deep Learning</div>
-                    </div>
-                </div>
-                <!-- Go -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-bolt text-2xl text-[#00add8]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Go (Golang)</div>
-                        <div class="text-[10px] text-gray-400">Distributed & gRPC</div>
-                    </div>
-                </div>
-                <!-- Java -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-brands fa-java text-2xl text-[#f89820]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Java</div>
-                        <div class="text-[10px] text-gray-400">OOP & Systems</div>
-                    </div>
-                </div>
-                <!-- Docker -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-brands fa-docker text-2xl text-[#2496ed]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Docker</div>
-                        <div class="text-[10px] text-gray-400">Containerization</div>
-                    </div>
-                </div>
-                <!-- Kubernetes -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-dharmachakra text-2xl text-[#326ce5]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Kubernetes</div>
-                        <div class="text-[10px] text-gray-400">Orchestration</div>
-                    </div>
-                </div>
-                <!-- AWS -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-brands fa-aws text-2xl text-[#ff9900]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">AWS</div>
-                        <div class="text-[10px] text-gray-400">Cloud Infra</div>
-                    </div>
-                </div>
-                <!-- FastAPI -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-gauge-high text-2xl text-[#009688]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">FastAPI</div>
-                        <div class="text-[10px] text-gray-400">APIs & Microservices</div>
-                    </div>
-                </div>
-                <!-- Hugging Face -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-face-smile text-2xl text-[#ffd21e]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Hugging Face</div>
-                        <div class="text-[10px] text-gray-400">Transformers</div>
-                    </div>
-                </div>
-                <!-- LangChain -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-link text-2xl text-[#1c3c3c]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">LangChain</div>
-                        <div class="text-[10px] text-gray-400">Agentic LLMs</div>
-                    </div>
-                </div>
-                <!-- Terraform -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-cubes text-2xl text-[#7b42bc]"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">Terraform</div>
-                        <div class="text-[10px] text-gray-400">Infrastructure as Code</div>
-                    </div>
-                </div>
-                <!-- MLOps -->
-                <div class="p-3 bg-darkBg rounded-lg border border-cardBorder flex items-center space-x-3 hover:border-accentBlue transition-all">
-                    <i class="fa-solid fa-infinity text-2xl text-accentGreen"></i>
-                    <div>
-                        <div class="text-xs font-semibold text-white">MLOps</div>
-                        <div class="text-[10px] text-gray-400">Pipelines & CI/CD</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+### 💻 Tech Stack & Core Competencies
+* **Languages & Core:** Python, Go (Golang), Java, SQL, Bash
+* **AI & Machine Learning:** PyTorch, Hugging Face, Transformers, LangChain, LoRA, Federated Learning, Offline RL
+* **Cloud & Infrastructure:** Kubernetes, AWS, Docker, Terraform, CI/CD Pipelines
+* **Backend & Systems:** FastAPI, gRPC, Distributed Systems, MLOps
 
-        <!-- Featured Research & Projects Section -->
-        <section id="projects" class="space-y-6">
-            <div class="flex items-center justify-between">
-                <h2 class="text-xl font-bold text-white flex items-center space-x-2">
-                    <i class="fa-solid fa-folder-tree text-accentPurple"></i>
-                    <span>Featured Research & Projects</span>
-                </h2>
-                <span class="text-xs text-gray-400 code-font">5 Core Production Systems</span>
-            </div>
+---
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+### 🔬 Featured Research & Projects
 
-                <!-- Project 1 -->
-                <div class="bg-cardBg rounded-xl p-6 border border-cardBorder glow-effect transition-all flex flex-col justify-between space-y-4">
-                    <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs code-font text-accentBlue px-2.5 py-1 rounded bg-accentBlue/10 border border-accentBlue/20">Agentic AI & LLMs</span>
-                            <span class="text-xs text-gray-400">Sep 2026 – Nov 2026</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Reliable Agentic AI for Multi-Step Software Maintenance</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">
-                            Developed a sandboxed, tool-using AI agent for multi-step software maintenance featuring autonomous repository search, test execution, and human-in-the-loop approvals.
-                        </p>
-                    </div>
-                    <div class="bg-darkBg p-3 rounded-lg border border-cardBorder/60 space-y-1.5">
-                        <div class="text-xs font-semibold text-accentGreen flex items-center space-x-1.5">
-                            <i class="fa-solid fa-chart-line"></i>
-                            <span>Quantified Metrics:</span>
-                        </div>
-                        <p class="text-xs text-gray-300">Achieved a <strong class="text-white">78.4% task completion rate</strong> (34.2% relative gain), <strong class="text-white">91.5% post-patch test pass rate</strong>, and <strong class="text-white">42% reduction in regressions</strong> with an average of 4.2 error-correction iterations.</p>
-                    </div>
-                </div>
+#### 1. [Reliable Agentic AI for Multi-Step Software Maintenance](https://github.com/kashyap03042003)
+* **Stack:** Python, LLMs, Tool Use, Automated Testing, Experimental Design
+* **Highlights:** Developed a sandboxed, tool-using AI agent for multi-step software maintenance featuring autonomous repository search, test execution, and human-in-the-loop approvals. 
+* **Metrics:** Achieved a **78.4% task completion rate** (34.2% relative gain), a **91.5% post-patch test pass rate**, and a **42% reduction in regressions** while self-correcting logic flaws within an average of 4.2 iterations.
 
-                <!-- Project 2 -->
-                <div class="bg-cardBg rounded-xl p-6 border border-cardBorder glow-effect transition-all flex flex-col justify-between space-y-4">
-                    <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs code-font text-accentOrange px-2.5 py-1 rounded bg-accentOrange/10 border border-accentOrange/20">Offline RL & Optimization</span>
-                            <span class="text-xs text-gray-400">Jan 2026 – Apr 2026</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Offline RL for Energy-Efficient Building Control</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">
-                            Implemented and benchmarked Conservative Q-Learning (CQL) and Implicit Q-Learning (IQL) against traditional behavior-cloning and rule-based baselines using historical BMS data.
-                        </p>
-                    </div>
-                    <div class="bg-darkBg p-3 rounded-lg border border-cardBorder/60 space-y-1.5">
-                        <div class="text-xs font-semibold text-accentGreen flex items-center space-x-1.5">
-                            <i class="fa-solid fa-chart-line"></i>
-                            <span>Quantified Metrics:</span>
-                        </div>
-                        <p class="text-xs text-gray-300">Reduced HVAC energy consumption by <strong class="text-white">18.5%</strong> and operating costs by <strong class="text-white">21.4%</strong>, while maintaining a strict <strong class="text-white">99.2% thermal comfort compliance rate</strong>.</p>
-                    </div>
-                </div>
+#### 2. [Offline RL for Energy-Efficient Building Control](https://github.com/kashyap03042003)
+* **Stack:** Python, PyTorch, CQL, IQL, Reinforcement Learning
+* **Highlights:** Implemented and compared Conservative Q-Learning (CQL) and Implicit Q-Learning (IQL) models against behavior-cloning and rule-based baselines using historical BMS data. Tested robustness under unseen weather distributions via Monte Carlo rollouts.
+* **Metrics:** Reduced HVAC energy consumption by **18.5%** and operating costs by **21.4%**, while maintaining a strict **99.2% thermal comfort compliance rate**.
 
-                <!-- Project 3 -->
-                <div class="bg-cardBg rounded-xl p-6 border border-cardBorder glow-effect transition-all flex flex-col justify-between space-y-4">
-                    <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs code-font text-accentGreen px-2.5 py-1 rounded bg-accentGreen/10 border border-accentGreen/20">Computer Vision & Robustness</span>
-                            <span class="text-xs text-gray-400">Sep 2025 – Dec 2025</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Vision Model Robustness & Calibration under Corruptions</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">
-                            Investigated robustness and confidence calibration under distribution shift by benchmarking Vision Transformers and CNNs against severe image corruptions (CIFAR-10-C).
-                        </p>
-                    </div>
-                    <div class="bg-darkBg p-3 rounded-lg border border-cardBorder/60 space-y-1.5">
-                        <div class="text-xs font-semibold text-accentGreen flex items-center space-x-1.5">
-                            <i class="fa-solid fa-chart-line"></i>
-                            <span>Quantified Metrics:</span>
-                        </div>
-                        <p class="text-xs text-gray-300">Improved corrupted image accuracy by <strong class="text-white">26.5%</strong> with high clean-data accuracy (<strong class="text-white">96.4% top-1</strong>) and a <strong class="text-white">41% reduction in Expected Calibration Error (ECE)</strong>.</p>
-                    </div>
-                </div>
+#### 3. [Vision Model Robustness & Calibration under Corruptions](https://github.com/kashyap03042003)
+* **Stack:** Computer Vision, Vision Transformers, PyTorch, TTA
+* **Highlights:** Investigated robustness and confidence calibration under distribution shift by benchmarking Vision Transformers and CNNs against severe image corruptions (CIFAR-10-C) using test-time adaptation (TTA).
+* **Metrics:** Improved corrupted image accuracy by **26.5%** over static baselines while preserving high clean-data accuracy (**96.4% top-1**) and achieving a **41% reduction in Expected Calibration Error (ECE)**.
 
-                <!-- Project 4 -->
-                <div class="bg-cardBg rounded-xl p-6 border border-cardBorder glow-effect transition-all flex flex-col justify-between space-y-4">
-                    <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs code-font text-accentPurple px-2.5 py-1 rounded bg-accentPurple/10 border border-accentPurple/20">Distributed Systems & Privacy</span>
-                            <span class="text-xs text-gray-400">Healthcare AI</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Privacy-Preserving Federated Learning for Oral Cancer Detection</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed">
-                            Developed a distributed federated framework using 25,000+ medical images with FedAvg, FedProx, and MimeLite aggregation across non-IID clients using Go and gRPC.
-                        </p>
-                    </div>
-                    <div class="bg-darkBg p-3 rounded-lg border border-cardBorder/60 space-y-1.5">
-                        <div class="text-xs font-semibold text-accentGreen flex items-center space-x-1.5">
-                            <i class="fa-solid fa-chart-line"></i>
-                            <span>Quantified Metrics:</span>
-                        </div>
-                        <p class="text-xs text-gray-300">Achieved <strong class="text-white">85% accuracy</strong> (closing within 8% of centralized upper-bound), a <strong class="text-white">98% federated round completion rate</strong>, and robust Differential Privacy guarantees.</p>
-                    </div>
-                </div>
+#### 4. [Privacy-Preserving Federated Learning for Oral Cancer Detection](https://github.com/kashyap03042003)
+* **Stack:** Go, gRPC, Federated Learning, Differential Privacy, PyTorch
+* **Highlights:** Developed a distributed federated framework using 25,000+ medical images with FedAvg, FedProx, and MimeLite aggregation across non-IID clients using Go and gRPC.
+* **Metrics:** Achieved **85% classification accuracy** (closing within 8% of centralized upper-bound), a **98% federated round completion rate**, and integrated Differential Privacy guarantees.
 
-            </div>
+#### 5. [Parameter-Efficient Fine-Tuning of Code Transformers for Defect Prediction](https://github.com/kashyap03042003)
+* **Stack:** Transformers, CodeBERT, GraphCodeBERT, PEFT, LoRA, Hugging Face
+* **Highlights:** Investigated PEFT of CodeBERT and GraphCodeBERT under limited data settings using LoRA and adapter configurations across strict project-wise splits.
+* **Metrics:** Achieved **12.4% higher PR-AUC** and **9.1% higher F1-score** on unseen target projects while reducing training time by **68%** and GPU memory by **45%**.
 
-            <!-- Full Width Project 5 -->
-            <div class="bg-cardBg rounded-xl p-6 border border-cardBorder glow-effect transition-all flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-                <div class="space-y-2 flex-1">
-                    <div class="flex items-center space-x-2">
-                        <span class="text-xs code-font text-accentBlue px-2.5 py-1 rounded bg-accentBlue/10 border border-accentBlue/20">Parameter-Efficient Fine-Tuning</span>
-                        <span class="text-xs text-gray-400">Code Transformers</span>
-                    </div>
-                    <h3 class="text-lg font-bold text-white">Parameter-Efficient Fine-Tuning of Code Transformers for Defect Prediction</h3>
-                    <p class="text-gray-300 text-sm leading-relaxed">
-                        Investigated PEFT of CodeBERT and GraphCodeBERT under limited data settings using LoRA and adapter configurations across strict project-wise splits.
-                    </p>
-                </div>
-                <div class="bg-darkBg p-4 rounded-lg border border-cardBorder/60 space-y-1.5 md:w-80 shrink-0">
-                    <div class="text-xs font-semibold text-accentGreen flex items-center space-x-1.5">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span>Quantified Metrics:</span>
-                    </div>
-                    <p class="text-xs text-gray-300">Achieved <strong class="text-white">12.4% higher PR-AUC</strong> and <strong class="text-white">9.1% higher F1-score</strong> on unseen target projects while reducing training time by <strong class="text-white">68%</strong> and GPU memory by <strong class="text-white">45%</strong>.</p>
-                </div>
-            </div>
-        </section>
+---
 
-        <!-- GitHub Stats & Aesthetic Visualization Section -->
-        <section id="stats" class="bg-cardBg rounded-xl p-6 border border-cardBorder space-y-6 shadow-md">
-            <h2 class="text-xl font-bold text-white flex items-center space-x-2">
-                <i class="fa-solid fa-chart-simple text-accentBlue"></i>
-                <span>GitHub Activity & Analytics</span>
-            </h2>
+### 📈 GitHub Stats & Activity
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kashyap03042003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kashyap03042003&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" alt="Top Languages" />
+</div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="bg-darkBg p-4 rounded-xl border border-cardBorder text-center space-y-1">
-                    <div class="text-2xl font-bold text-accentBlue code-font">1,250+</div>
-                    <div class="text-xs text-gray-400 uppercase tracking-wider font-medium">Contributions (Past Year)</div>
-                </div>
-                <div class="bg-darkBg p-4 rounded-xl border border-cardBorder text-center space-y-1">
-                    <div class="text-2xl font-bold text-accentGreen code-font">35+</div>
-                    <div class="text-xs text-gray-400 uppercase tracking-wider font-medium">Repositories & Research Codebases</div>
-                </div>
-                <div class="bg-darkBg p-4 rounded-xl border border-cardBorder text-center space-y-1">
-                    <div class="text-2xl font-bold text-accentPurple code-font">99.8%</div>
-                    <div class="text-xs text-gray-400 uppercase tracking-wider font-medium">CI/CD Pipeline Success Rate</div>
-                </div>
-            </div>
-
-            <!-- Simulated GitHub Contribution Heatmap Aesthetic -->
-            <div class="bg-darkBg p-5 rounded-xl border border-cardBorder space-y-3">
-                <div class="flex items-center justify-between text-xs text-gray-400">
-                    <span>Contribution Activity Matrix</span>
-                    <span class="code-font text-accentBlue">Active streak: 42 days</span>
-                </div>
-                <div class="grid grid-cols-12 sm:grid-cols-24 gap-1.5 py-2">
-                    <!-- Dynamic simulated grid squares -->
-                    <script>
-                        for (let i = 0; i < 96; i++) {
-                            const colors = ['bg-[#161b22]', 'bg-[#0e4429]', 'bg-[#006d32]', 'bg-[#26a641]', 'bg-[#39d353]'];
-                            const randomColor = colors[Math.floor(Math.random() * colors.length)];
-                            document.write(`<div class="w-full h-3 rounded-sm ${randomColor} opacity-90 transition-transform hover:scale-125"></div>`);
-                        }
-                    </script>
-                </div>
-                <div class="flex items-center justify-end space-x-2 text-[10px] text-gray-400">
-                    <span>Less</span>
-                    <span class="w-2.5 h-2.5 rounded-sm bg-[#161b22]"></span>
-                    <span class="w-2.5 h-2.5 rounded-sm bg-[#0e4429]"></span>
-                    <span class="w-2.5 h-2.5 rounded-sm bg-[#006d32]"></span>
-                    <span class="w-2.5 h-2.5 rounded-sm bg-[#26a641]"></span>
-                    <span class="w-2.5 h-2.5 rounded-sm bg-[#39d353]"></span>
-                    <span>More</span>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-[#161b22] border-t border-cardBorder mt-16 py-8 text-center text-xs text-gray-400">
-        <div class="max-w-7xl mx-auto px-4 space-y-3">
-            <div class="flex justify-center space-x-6">
-                <a href="https://github.com/kashyap03042003" target="_blank" class="hover:text-accentBlue transition-colors"><i class="fa-brands fa-github text-lg"></i></a>
-                <a href="https://linkedin.com" target="_blank" class="hover:text-accentBlue transition-colors"><i class="fa-brands fa-linkedin text-lg"></i></a>
-                <a href="mailto:kashyap.kr@northeastern.edu" class="hover:text-accentBlue transition-colors"><i class="fa-solid fa-envelope text-lg"></i></a>
-            </div>
-            <p>Designed & Built with passion by <strong class="text-white">Krishna Kashyap</strong> &copy; 2026</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+---
+<div align="center">
+  <a href="https://linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:kashyap.kr@northeastern.edu"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail" alt="Email" /></a>
+</div>
