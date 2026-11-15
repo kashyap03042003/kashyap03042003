@@ -5,7 +5,7 @@
 ### **Software Engineer & AI Researcher** 
 *MSCS @ Northeastern University | BS @ NIT Nagpur*
 
-<img src="https://komarev.com/ghprofile/kashyap03042003/?color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+<img src="https://img.shields.io/badge/Profile_Views-Active-58a6ff?style=flat-square&logo=github" alt="Profile Views" />
 <img src="https://img.shields.io/badge/Status-Actively_Building-3fb950?style=flat-square&logo=github" alt="Status" />
 
 </div>
