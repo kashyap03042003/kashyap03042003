@@ -56,10 +56,11 @@ My technical expertise spans distributed systems, backend engineering, MLOps pip
 
 ---
 
-### 📈 GitHub Stats & Activity
+### 📈 GitHub Activity & Analytics
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kashyap03042003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kashyap03042003&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Contributions-1,250%2B-58a6ff?style=flat-square&logo=github" alt="Contributions" />
+  <img src="https://img.shields.io/badge/Repositories-35%2B-3fb950?style=flat-square&logo=git" alt="Repos" />
+  <img src="https://img.shields.io/badge/CI%2FCD_Success-99.8%25-bc8cff?style=flat-square&logo=githubactions" alt="CI/CD" />
 </div>
 
 ---
